@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- Start Nav Bar -->
-    <nav>
+    <nav id="nav">
       <div class="nav__top">
         <div class="nav__item">
           <img src="./img/sneakers.png" alt="" />
@@ -49,9 +49,277 @@
       <div class="slider__wrapper">
         <div class="slider__item">
           <img src="./img/air.png" alt="" class="slider__image" />
+          <div class="slider__bg"></div>
+          <h1 class="slider__title">
+            AIR FORCE<br />
+            NEW <br />
+            SEASON
+          </h1>
+          <h2 class="slider__price">$ 119</h2>
+          <a href="#product">
+            <button class="buy__button">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="slider__item">
+          <img src="./img/jordan.png" alt="" class="slider__image" />
+          <div class="slider__bg"></div>
+          <h1 class="slider__title">
+            AIR FORCE<br />
+            NEW <br />
+            SEASON
+          </h1>
+          <h2 class="slider__price">$ 119</h2>
+          <a href="#product">
+            <button class="buy__button">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="slider__item">
+          <img src="./img/blazer.png" alt="" class="slider__image" />
+          <div class="slider__bg"></div>
+          <h1 class="slider__title">
+            AIR FORCE<br />
+            NEW <br />
+            SEASON
+          </h1>
+          <h2 class="slider__price">$ 119</h2>
+          <a href="#product">
+            <button class="buy__button">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="slider__item">
+          <img src="./img/crater.png" alt="" class="slider__image" />
+          <div class="slider__bg"></div>
+          <h1 class="slider__title">
+            AIR FORCE<br />
+            NEW <br />
+            SEASON
+          </h1>
+          <h2 class="slider__price">$ 119</h2>
+          <a href="#product">
+            <button class="buy__button">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="slider__item">
+          <img src="./img/hippie.png" alt="" class="slider__image" />
+          <div class="slider__bg"></div>
+          <h1 class="slider__title">
+            AIR FORCE<br />
+            NEW <br />
+            SEASON
+          </h1>
+          <h2 class="slider__price">$ 119</h2>
+          <a href="#product">
+            <button class="buy__button">BUY NOW!</button>
+          </a>
         </div>
       </div>
     </div>
     <!-- End Slider -->
+    <!-- Start Features -->
+    <div class="features">
+      <div class="feature">
+        <img src="./img/shipping.png" alt="" class="feature__icon" />
+        <span class="feature__title">FREE SHIPPING</span>
+        <span class="feature__desc"
+          >Free worldwide shipping on all orders.</span
+        >
+      </div>
+      <div class="feature">
+        <img class="feature__icon" src="./img/return.png" alt="" />
+        <span class="feature__title">30 DAYS RETURN</span>
+        <span class="feature__desc"
+          >No question return and easy refund in 14 days.</span
+        >
+      </div>
+      <div class="feature">
+        <img class="feature__icon" src="./img/gift.png" alt="" />
+        <span class="feature__title">GIFT CARDS</span>
+        <span class="feature__desc"
+          >Buy gift cards and use coupon codes easily.</span
+        >
+      </div>
+      <div class="feature">
+        <img class="feature__icon" src="./img/contact.png" alt="" />
+        <span class="feature__title">CONTACT US!</span>
+        <span class="feature__desc"
+          >Keep in touch via email and support system.</span
+        >
+      </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Product -->
+    <div class="product" id="product">
+      <img src="./img/air.png" alt="" class="product__img" />
+      <div class="product__details">
+        <h1 class="product__title">AIR FORCE</h1>
+        <h2 class="product__price">$199</h2>
+        <p class="product__desc">
+          Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias
+          assumenda dolorum doloremque sapiente aliquid aperiam.
+        </p>
+        <div class="colors">
+          <div class="color"></div>
+          <div class="color"></div>
+        </div>
+        <div class="sizes">
+          <div class="size">42</div>
+          <div class="size">43</div>
+          <div class="size">44</div>
+        </div>
+        <button class="product__button">BY NOW!</button>
+      </div>
+      <!-- Start Payment Modal -->
+      <div class="payment">
+        <h1 class="payment__title">Personal Information</h1>
+        <label> Name and Surname</label>
+        <input type="text" placeholder="John Doe" class="payment__input" />
+        <label> Phone Number</label>
+        <input
+          type="phone"
+          placeholder=" +91 324 5456"
+          class="payment__input"
+        />
+        <label> Address</label>
+        <input
+          type="text"
+          placeholder="Lebanon St 21 22-145"
+          class="payment__input"
+        />
+        <h1 class="payment__title">Card Information</h1>
+        <div class="card__icons">
+          <img src="./img/visa.png" width="40" alt="" class="card__icon" />
+          <img src="./img/master.png" width="40" alt="" class="card__icon" />
+        </div>
+        <input
+          type="password"
+          class="payment__input"
+          placeholder="Card Number"
+        />
+        <div class="card__info">
+          <input type="text" placeholder="mm" class="payment__input sm" />
+          <input type="text" placeholder="yyyy" class="payment__input sm" />
+          <input type="text" placeholder="cvv" class="payment__input sm" />
+        </div>
+        <button class="payment__button">Checkout</button>
+        <span class="close__button">X</span>
+      </div>
+      <!-- End Payment Modal -->
+    </div>
+    <!-- End Product -->
+    <!-- Start Gallery -->
+    <div class="gallery">
+      <div class="gallery__item">
+        <h1 class="gallery__title">Be Yourself!</h1>
+        <img
+          src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          alt=""
+          class="gallery__img"
+        />
+      </div>
+      <div class="gallery__item">
+        <img
+          src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          alt=""
+          class="gallery__img"
+        />
+        <h1 class="gallery__title">This is the First Day of Your New Life</h1>
+      </div>
+      <div class="gallery__item">
+        <h1 class="gallery__title">Just Do it!</h1>
+        <img
+          src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          alt=""
+          class="gallery__img"
+        />
+      </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start New Season -->
+    <div class="newSeason">
+      <div class="newSeason__item">
+        <img
+          src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          class="newSeason__img"
+        />
+      </div>
+      <div class="newSeason__item">
+        <h3 class="newSeason__title__sm">WINTER NEW ARRIVALS</h3>
+        <h1 class="newSeason__title__sm">New Season</h1>
+        <h1 class="newSeason__title__sm">New Collection</h1>
+        <a href="#nav">
+          <button class="newSeason__button">CHOOSE YOUR STYLE</button>
+        </a>
+      </div>
+      <div class="newSeason__item">
+        <img
+          src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          class="newSeason__img"
+        />
+      </div>
+    </div>
+    <!--End New Season -->
+    <!-- Start Footer -->
+    <footer>
+      <div class="footer__left">
+        <div class="footer__menu">
+          <h1 class="menu__title">About Us</h1>
+          <ul class="menu__list">
+            <li class="list__item">Company</li>
+            <li class="list__item">contact</li>
+            <li class="list__item">Careers</li>
+            <li class="list__item">Affiliates</li>
+            <li class="list__item">Stores</li>
+          </ul>
+        </div>
+        <div class="footer__menu">
+          <h1 class="menu__title">Useful Links</h1>
+          <ul class="menu__list">
+            <li class="list__item">Support</li>
+            <li class="list__item">Refund</li>
+            <li class="list__item">FAQ</li>
+            <li class="list__item">Feedback</li>
+            <li class="list__item">Stories</li>
+          </ul>
+        </div>
+        <div class="footer__menu">
+          <h1 class="menu__title">Products</h1>
+          <ul class="menu__list">
+            <li class="list__item">Air Force</li>
+            <li class="list__item">Air Jordan</li>
+            <li class="list__item">Blazer</li>
+            <li class="list__item">Crater</li>
+            <li class="list__item">Hippie</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__right">
+        <div class="fRight__menu">
+          <h1 class="fMenu__title">Subscribe to our newsletter</h1>
+          <div class="fMenu__mail">
+            <input
+              type="text"
+              placeholder="your@email.com"
+              class="footer__input"
+            />
+            <button class="footer__button">Join!</button>
+          </div>
+        </div>
+        <div class="fRight__menu">
+          <h1 class="fMenu__title">Follow Us</h1>
+          <div class="footer__icons">
+            <img src="./img/twitter.png" alt="" class="footer__icon" />
+            <img src="./img/instagram.png" alt="" class="footer__icon" />
+            <img src="./img/whatsapp.png" alt="" class="footer__icon" />
+            <img src="./img/facebook.png" alt="" class="footer__icon" />
+          </div>
+        </div>
+        <div class="fRight__menu">
+          <span class="copyright">@Abed Dev. All rights reserved. 2022.</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+    <script src="./app.js"></script>
   </body>
 </html>
